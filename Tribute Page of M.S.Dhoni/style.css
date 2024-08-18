@@ -1,0 +1,36 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+.main{
+    background-image:url(https://img.freepik.com/free-vector/elegant-floral-border-background-with-soft-colors_1361-1270.jpg);
+    background-size:cover;
+    border:solid black;
+}
+#image{
+    height:300px;
+    width:300px;
+}
+.inner{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;  
+}
+h1{
+    width:fit-content;
+    margin:50px 50px 50px 50px;
+}
+p{
+    margin:50px 50px 50px 50px;
+    font-size: 25px;
+}
+li{
+    font-size:25px;
+}
+#image:hover{
+    content:url(dhoni2.jpg);
+}
+h2{
+    margin: 50px 50px 50px 50px;
+    font-size:25px;
+}
